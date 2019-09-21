@@ -1,3 +1,6 @@
+msgid "DNS Forwarder"
+msgstr "域名转发"
+
 msgid "Enable"
 msgstr "启用"
 

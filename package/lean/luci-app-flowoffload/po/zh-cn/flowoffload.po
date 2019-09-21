@@ -2,10 +2,10 @@ msgid "Flow Offload ACC"
 msgstr "Flow Offload 转发加速"
 
 msgid "Turbo ACC Center"
-msgstr "Turbo ACC 网络加速"
+msgstr "网络加速"
 
 msgid "Turbo ACC Acceleration Settings"
-msgstr "Turbo ACC 网络加速设置"
+msgstr "网络加速设置"
 
 msgid "Linux Flow Offload Forwarding Engine Settings"
 msgstr "Linux Flow Offload Forwarding 转发加速引擎设置"

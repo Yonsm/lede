@@ -1,5 +1,5 @@
 module("luci.controller.dnspod", package.seeall)
 
 function index()
-        entry({"admin", "network", "dnspod"}, cbi("dnspod"), _("动态DNSPOD"), 100)
+        entry({"admin", "services", "dnspod"}, cbi("dnspod"), _("腾讯域名"), 60)
 end

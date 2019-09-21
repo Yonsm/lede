@@ -419,7 +419,7 @@ header > .container > .brand-hostname {
 	padding-top:6px;
 	border: 0px solid #eee;
 	border-radius: 4px;
-	box-shadow: 4px 4px 4px rgba(0,0,0,.05);
+	/*box-shadow: 4px 4px 4px rgba(0,0,0,.05);*/
     cursor: pointer;
 }
 

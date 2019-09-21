@@ -64,7 +64,7 @@ msgid "Diagnostic Results"
 msgstr "诊断结果"
 
 msgid "Diagnostics"
-msgstr "诊断"
+msgstr "网络诊断"
 
 msgid "Disabled"
 msgstr "禁用"
@@ -656,7 +656,7 @@ msgid "Backup"
 msgstr "备份"
 
 msgid "Bandwidth Monitor"
-msgstr "带宽监控"
+msgstr "监控"
 
 msgid "CSV, grouped by IP"
 msgstr "CSV，按 IP 分组"
