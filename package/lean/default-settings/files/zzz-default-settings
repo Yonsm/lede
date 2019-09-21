@@ -12,7 +12,8 @@ uci set system.@system[0].hostname=Router
 # uci set wireless.default_radio1.encryption='psk2'
 # uci set wireless.default_radio0.key='12345678'
 # uci set wireless.default_radio1.key='12345678'
-# uci commit wireless
+wireless.radio1.country='AU'
+uci commit wireless
 
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
@@ -29,15 +30,15 @@ rm -f /usr/lib/lua/luci/view/admin_status/index/minidlna.htm
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/aria2.lua
 sed -i 's/services/nas/g' /usr/lib/lua/luci/view/aria2/overview_status.htm
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/hd_idle.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/samba.lua
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/samba.lua
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/samba4.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/minidlna.lua
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/minidlna.lua
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/transmission.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/mjpg-streamer.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/p910nd.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/usb_printer.lua
-sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/xunlei.lua
-sed -i 's/services/nas/g'  /usr/lib/lua/luci/view/minidlna_status.htm
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/mjpg-streamer.lua
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/p910nd.lua
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/usb_printer.lua
+#sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/xunlei.lua
+#sed -i 's/services/nas/g'  /usr/lib/lua/luci/view/minidlna_status.htm
 
 uci set minidlna.config.enabled=0
 uci commit minidlna

@@ -1059,8 +1059,8 @@ msgstr "细微增量"
 msgid "Multicast subscription renew"
 msgstr "多播订阅刷新"
 
-msgid "UdPxy is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."
-msgstr "UdPxy 是一个 UDP 多播转 HTTP 流量中继服务。"
+msgid "udpxy is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."
+msgstr "udpxy 是一个 UDP 多播转 HTTP 流量中继服务。"
 
-msgid "UdPxy"
+msgid "udpxy"
 msgstr "电视代理"
