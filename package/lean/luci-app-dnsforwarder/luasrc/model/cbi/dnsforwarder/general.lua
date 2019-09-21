@@ -36,7 +36,7 @@ else if dnsforwarder_on then
 	state_msg=state_msg .. "<b><font color=\"red\"></font></b>"
 	end
 end
-m=Map("dnsforwarder",translate("dnsforwarder"),translate("Dnsforwarder是企业级DNS服务器，可以通过TCP协议进行DNS解析,可以方便的使用iptables进行透明代理，配合ipset、GFWList使用效果更佳。默认上游服务器为114DNS，SSR和Redsocks的GFWList模式要依赖本软件包提供的功能").. "<br><br>状态 - " .. state_msg)
+m=Map("dnsforwarder",translate("dnsforwarder"),translate("DNS Forwarder是企业级DNS服务器，可以通过TCP协议进行DNS解析,可以方便的使用iptables进行透明代理，配合ipset、GFWList使用效果更佳。默认上游服务器为114DNS，SSR和Redsocks的GFWList模式要依赖本软件包提供的功能").. "<br><br>状态 - " .. state_msg)
 s=m:section(TypedSection,"arguments", translate("通用配置"))
 s.addremove=false
 s.anonymous=true

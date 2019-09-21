@@ -110,7 +110,7 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "Interface"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Interface Status"
 msgstr "接口状态"
@@ -125,7 +125,7 @@ msgid "Interface will be deemed down after this many failed ping tests"
 msgstr "当 Ping 失败次数达到这个数值后接口会被认为离线"
 
 msgid "Interfaces"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Internet Protocol"
 msgstr "互联网协议"
@@ -1035,3 +1035,32 @@ msgstr "警告：当前系统没有包括两个分区!"
 msgid "Warning: This system does not support powering off!"
 msgstr "警告：本系统不支持软关机!"
 
+msgid "Respawn"
+msgstr "复位"
+
+msgid "Bind IP/Interface"
+msgstr "绑定地址/接口"
+
+msgid "Source IP/Interface"
+msgstr "源地址/接口"
+
+msgid "Buffer size"
+msgstr "缓冲大小"
+
+msgid "Buffer messages"
+msgstr "缓冲消息"
+
+msgid "Buffer time"
+msgstr "缓冲时间"
+
+msgid "Nice increment"
+msgstr "细微增量"
+
+msgid "Multicast subscription renew"
+msgstr "多播订阅刷新"
+
+msgid "UdPxy is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."
+msgstr "UdPxy 是一个 UDP 多播转 HTTP 流量中继服务。"
+
+msgid "UdPxy"
+msgstr "电视代理"
