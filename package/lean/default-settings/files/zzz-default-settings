@@ -3,6 +3,17 @@
 uci set luci.main.lang=zh_cn
 uci commit luci
 
+echo 0xDEADBEEF > /etc/config/google_fu_mode
+
+uci set system.@system[0].hostname=Router
+# uci set wireless.default_radio0.ssid='Router'
+# uci set wireless.default_radio1.ssid='Router5'
+# uci set wireless.default_radio0.encryption='psk2'
+# uci set wireless.default_radio1.encryption='psk2'
+# uci set wireless.default_radio0.key='12345678'
+# uci set wireless.default_radio1.key='12345678'
+# uci commit wireless
+
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
 uci commit system
@@ -67,8 +78,6 @@ sed -i 's/cbi.submit\"] = true/cbi.submit\"] = \"1\"/g' /usr/lib/lua/luci/dispat
 
 rm -rf /tmp/luci-modulecache/
 rm -f /tmp/luci-indexcache
-
-echo 0xDEADBEEF > /etc/config/google_fu_mode
 
 exit 0
 
