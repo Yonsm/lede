@@ -24,7 +24,7 @@ smb_header() {
 	local hostname="$(cat /proc/sys/kernel/hostname)"
 
 	config_get workgroup		$1 workgroup	"WORKGROUP"
-	config_get description		$1 description	"Stroage on Router"
+	config_get description		$1 description	"Stroage"
 	config_get charset			$1 charset		"UTF-8"
 	
 	config_get_bool MACOS			$1 macos			0
