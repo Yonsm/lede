@@ -16,7 +16,7 @@ veto files = /Thumbs.db/.DS_Store/._.DS_Store/.apdisk/
 load printers = no
 disable spoolss = yes
 
-# Optimization
+# Connection
 deadtime = 15
 min receivefile size = 16384
 write cache size = 524288

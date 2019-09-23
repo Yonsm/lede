@@ -21,6 +21,7 @@ msgstr "%d 秒"
 msgid ""
 "Acceptable values: 1-100. This many Tracking IP addresses must respond for "
 "the link to be deemed up"
+
 msgstr ""
 "取值范围: 1-100。这个设置项指定了当多少个 IP 地址能够连通时接口会被认为在线"
 
@@ -1064,6 +1065,7 @@ msgstr "udpxy 是一个 UDP 多播转 HTTP 流量中继服务。"
 
 msgid "udpxy"
 msgstr "电视代理"
+
 msgid ""
 "(/old/path=/new/path) or (just /old/path which becomes /cgi-prefix/old/path)"
 msgstr "(/old/path=/new/path) 或 (仅 /old/path 成为 /cgi-prefix/old/path)"
@@ -1105,7 +1107,7 @@ msgid "Disable JSON-RPC authorization via ubus session API"
 msgstr "禁用通过 UBUS 会话 AP 的 JSON-RPC 认证"
 
 msgid "Do not follow symlinks outside document root"
-msgstr "不追踪文档根目录之外的符号链接"
+msgstr "不追踪外部符号链接"
 
 msgid "Do not generate directory listings."
 msgstr "不生成目录列表"
@@ -1120,7 +1122,7 @@ msgid "Embedded Lua interpreter is disabled if not present."
 msgstr "如果不存在，嵌入式 Lua 解释器将被禁用"
 
 msgid "Enable JSON-RPC Cross-Origin Resource Support"
-msgstr "启用 JSON-RPC 跨站资源支持"
+msgstr "JSON-RPC 跨站资源支持"
 
 msgid "For settings primarily geared to serving more than the web UI"
 msgstr "主要用于服务于管理网页之外的设置"
@@ -1129,7 +1131,7 @@ msgid "Full Web Server Settings"
 msgstr "完整设置"
 
 msgid "Full real path to handler for Lua scripts"
-msgstr "Lua 脚本处理程序的完整真实路径"
+msgstr "Lua 脚本处理器真实路径"
 
 msgid "General Settings"
 msgstr "常规设置"
@@ -1226,7 +1228,7 @@ msgid "Virtual path prefix for Lua scripts"
 msgstr "Lua 脚本的虚拟路径前缀"
 
 msgid "Virtual path prefix for ubus via JSON-RPC integration"
-msgstr "JSON-RPC 集成 UBUS 的虚拟路径前缀"
+msgstr "UBUS 虚拟路径前缀"
 
 msgid "Will not use HTTP authentication if not present"
 msgstr "如果不存在，将不使用 HTTP 认证"
@@ -1238,7 +1240,7 @@ msgid "uHTTPd"
 msgstr "网页服务"
 
 msgid "uHTTPd Self-signed Certificate Parameters"
-msgstr "uHTTPd 自签名证书参数"
+msgstr "自签名证书参数"
 
 msgid ""
 "uHTTPd will generate a new self-signed certificate using the configuration "
