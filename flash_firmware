@@ -5,4 +5,4 @@ if [ $# = 0 ]; then
 fi
 
 scp `ls /opt/lede/bin/targets/ramips/mt7621/*sysupgrade.bin` $1:/tmp/firmware.trx
-ssh $1 "sysupgrade -n /tmp/firmware.trx"
+ssh $1 "sysupgrade $2 /tmp/firmware.trx"
