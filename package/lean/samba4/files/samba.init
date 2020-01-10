@@ -22,9 +22,10 @@ smb_header() {
 	local workgroup description charset
 	# we dont use netbios anymore as default and wsd/avahi is dns based
 	local hostname="$(cat /proc/sys/kernel/hostname)"
+	config_get name				$1 name			hostname
 
 	config_get workgroup		$1 workgroup	"WORKGROUP"
-	config_get description		$1 description	"Samba on OpenWrt"
+	config_get description		$1 description	"Stroage"
 	config_get charset			$1 charset		"UTF-8"
 	
 	config_get_bool MACOS			$1 macos			0
@@ -33,14 +34,14 @@ smb_header() {
 	config_get_bool DISABLE_WINBIND	$1 disable_winbind	0
 
 	mkdir -p /var/etc
-	sed -e "s#|NAME|#$hostname#g" \
+	sed -e "s#|NAME|#$name#g" \
 	    -e "s#|WORKGROUP|#$workgroup#g" \
 	    -e "s#|DESCRIPTION|#$description#g" \
 	    -e "s#|INTERFACES|#$interfaces#g" \
 	    -e "s#|CHARSET|#$charset#g" \
 	    /etc/samba/smb.conf.template > /var/etc/smb.conf
 
-	echo -e "\n######### Dynamic written config options #########\n" >> /var/etc/smb.conf
+	#echo -e "\n######### Dynamic written config options #########\n" >> /var/etc/smb.conf
 	if [ "$DISABLE_NETBIOS" -eq 1 ] || [ ! -x /usr/sbin/nmbd ]; then
 		echo -e "\tdisable netbios = yes" >> /var/etc/smb.conf
 	fi
