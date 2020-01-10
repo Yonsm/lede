@@ -3,6 +3,17 @@
 uci set luci.main.lang=zh_cn
 uci commit luci
 
+uci set system.@system[0].hostname=Router
+uci set wireless.default_radio0.ssid='Router'
+uci set wireless.default_radio1.ssid='Router5'
+uci set wireless.default_radio0.encryption='psk2'
+uci set wireless.default_radio1.encryption='psk2'
+uci set wireless.default_radio0.key='12345678'
+uci set wireless.default_radio1.key='12345678'
+uci set wireless.radio0.country='CN'
+uci set wireless.radio1.country='AU'
+uci commit wireless
+
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
 uci commit system
