@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ $# = 0 ]; then
+  echo "Usage: $0 <TargetHost>"
+  exit 0
+fi
+
+scp `ls /opt/lede/bin/targets/ramips/mt7621/*sysupgrade.bin` $1:/tmp/firmware.trx
+ssh $1 "sysupgrade $2 /tmp/firmware.trx"
