@@ -1,3 +1,6 @@
+msgid "DNS Forwarder"
+msgstr "域名转发"
+
 msgid "Enable"
 msgstr "启用"
 
@@ -6,3 +9,12 @@ msgstr "运行中"
 
 msgid "Not running"
 msgstr "未运行"
+
+msgid "General"
+msgstr "常规"
+
+msgid "LOG"
+msgstr "日志"
+
+msgid "dnsforwarder"
+msgstr "域名转发"

@@ -18,7 +18,7 @@ msgstr ""
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:78
 msgid "Allow guests"
-msgstr "允许匿名用户"
+msgstr "访客"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:15
 msgid "Allow system users to reach their home directories via network shares"
@@ -30,7 +30,7 @@ msgstr "允许用户"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:106
 msgid "Apple Time-machine share"
-msgstr "Apple Time-machine 共享"
+msgstr "时间机器"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:63
 msgid "Browse-able"
@@ -38,7 +38,7 @@ msgstr "可浏览"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:93
 msgid "Create mask"
-msgstr "创建权限掩码"
+msgstr "创建掩码"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:12
 msgid "Description"
@@ -46,7 +46,7 @@ msgstr "描述"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:98
 msgid "Directory mask"
-msgstr "目录权限掩码"
+msgstr "目录掩码"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:27
 msgid "Disable Active Directory Domain Controller"
@@ -54,11 +54,11 @@ msgstr "禁用 Active Directory 域控制器"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:24
 msgid "Disable Netbios"
-msgstr "禁用 Netbios"
+msgstr "禁用 NetBIOS"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:30
 msgid "Disable Winbind"
-msgstr "禁用 Winbind"
+msgstr "禁用 WinBind"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:9
 msgid "Edit Template"
@@ -66,11 +66,11 @@ msgstr "编辑模板"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:34
 msgid "Edit the template that is used for generating the samba configuration."
-msgstr "编辑用来生成 samba 设置的模板"
+msgstr "编辑用来生成 Samba 设置的模板"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:19
 msgid "Enable macOS compatible shares"
-msgstr "启用 macOS 兼容共享"
+msgstr "兼容 macOS 特性"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:20
 msgid ""
@@ -80,7 +80,7 @@ msgstr "全局启用 Apple 的 AAPL 扩展，并为所有共享添加 macOS 兼�
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:73
 msgid "Force Root"
-msgstr "强制 Root"
+msgstr "强制 ROOT"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:8
 msgid "General Settings"
@@ -88,7 +88,7 @@ msgstr "基本设置"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:83
 msgid "Guests only"
-msgstr "仅来宾用户"
+msgstr "仅访客"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:11
 msgid "Hostname"
@@ -96,11 +96,11 @@ msgstr "主机名"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:88
 msgid "Inherit owner"
-msgstr "继承所有者"
+msgstr "继承权限"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:57
 msgid "Name"
-msgstr "共享名"
+msgstr "名称"
 
 #: applications/luci-app-samba4/luasrc/controller/samba4.lua:12
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:3
@@ -141,7 +141,7 @@ msgstr ""
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:108
 msgid "Time-machine size in GB"
-msgstr "Time-machine 大小（GB）"
+msgstr "时间机器大小"
 
 #: applications/luci-app-samba4/luasrc/model/cbi/samba4.lua:103
 msgid "Vfs objects"
@@ -152,7 +152,7 @@ msgid "Workgroup"
 msgstr "工作组"
 
 #~ msgid "Browseable"
-#~ msgstr "可浏览"
+#~ msgstr "浏览"
 
 #~ msgid "Mask for new directories"
 #~ msgstr "新目录权限掩码"

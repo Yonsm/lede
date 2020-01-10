@@ -21,6 +21,7 @@ msgstr "%d 秒"
 msgid ""
 "Acceptable values: 1-100. This many Tracking IP addresses must respond for "
 "the link to be deemed up"
+
 msgstr ""
 "取值范围: 1-100。这个设置项指定了当多少个 IP 地址能够连通时接口会被认为在线"
 
@@ -64,7 +65,7 @@ msgid "Diagnostic Results"
 msgstr "诊断结果"
 
 msgid "Diagnostics"
-msgstr "诊断"
+msgstr "网络诊断"
 
 msgid "Disabled"
 msgstr "禁用"
@@ -110,7 +111,7 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "Interface"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Interface Status"
 msgstr "接口状态"
@@ -125,7 +126,7 @@ msgid "Interface will be deemed down after this many failed ping tests"
 msgstr "当 Ping 失败次数达到这个数值后接口会被认为离线"
 
 msgid "Interfaces"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Internet Protocol"
 msgstr "互联网协议"
@@ -656,7 +657,7 @@ msgid "Backup"
 msgstr "备份"
 
 msgid "Bandwidth Monitor"
-msgstr "带宽监控"
+msgstr "监控"
 
 msgid "CSV, grouped by IP"
 msgstr "CSV，按 IP 分组"

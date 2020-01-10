@@ -1,6 +1,9 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "ShadowSocksR Plus+"
+msgstr "科学上网"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
@@ -221,16 +224,16 @@ msgid "Running Mode"
 msgstr "运行模式"
 
 msgid "IP Route Mode"
-msgstr "绕过中国大陆IP模式"
+msgstr "大陆白名单"
 
 msgid "GFW List Mode"
-msgstr "GFW列表模式"
+msgstr "列表黑名单"
 
 msgid "Global Mode"
 msgstr "全局模式"
 
 msgid "Oversea Mode"
-msgstr "海外用户回国模式"
+msgstr "海外回国"
 
 msgid "Router Proxy"
 msgstr "路由器访问控制"

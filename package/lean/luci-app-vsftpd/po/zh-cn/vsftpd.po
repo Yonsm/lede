@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Pootle 2.0.6\n"
 
 msgid "NAS"
-msgstr "网络存储"
+msgstr "存储"
 
 msgid ". and .. are excluded."
 msgstr ". 和 .. 将被忽略。"
@@ -112,7 +112,7 @@ msgid "FTP Banner"
 msgstr "FTP 欢迎提示"
 
 msgid "FTP Server"
-msgstr "FTP 服务器"
+msgstr "文件服务"
 
 msgid "FTP Server - Anonymous Settings"
 msgstr "FTP 服务器 - 匿名用户设置"
